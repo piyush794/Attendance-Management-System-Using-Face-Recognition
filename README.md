@@ -19,7 +19,7 @@ The **Attendance Management System** is a Python-based application that leverage
 - **Python**
 - **OpenCV**
 - **Tkinter**
-- **NumPy**a
+- **NumPy**
 - **Pandas**
 - **MySQL**
 - **Pillow**
@@ -30,8 +30,8 @@ The **Attendance Management System** is a Python-based application that leverage
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/SHREEPATI-1503/Attendance-Management-System-using-Face-Recognition.git
-cd attendance-management-system
+git clone https://github.com/piyush794/Attendance-Management-System-Using-Face-Recognition-.git
+
 ```
 
 ### 2. Install Required Packages
@@ -52,7 +52,7 @@ Download the Haarcascade XML file for face detection from the [OpenCV GitHub rep
 ## Usage
 
 ### 1. Capture Images
-- Run `main_Run.py` to open the GUI.
+- Run `Main_FaceAttendance.py` to open the GUI.
 - Enter the student's enrollment number and name.
 - Click on **"Take Images"** to capture their face images.
 
@@ -80,11 +80,7 @@ Attendance Management System using Face Recognition/
 ├── Attendance/                  # Directory to save attendance records
 ├── haarcascade_frontalface_default.xml  # Haarcascade file for face detection
 ├── requirements.txt             # Required Python packages
-├── main_Run.py                  # Main application file
-├── training.py                  # Script for training the face recognition model
-├── testing.py                   # Script for testing face recognition
-├── mini_app.py                  # Simple GUI application for capturing images
-├── app.py                       # Streamlit app for attendance visualization
+├── Main_FaceAttendance.py       # Main application file
 └── README.md                    # Project documentation
 ```
 
@@ -109,4 +105,4 @@ Special thanks to the following:
 
 ---
 
-For any questions or issues, feel free to contact **[your email]**.
+For any questions or issues, feel free to contact **nautiyalpiyush54@gmail.com**.
