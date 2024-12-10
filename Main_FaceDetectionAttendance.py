@@ -67,7 +67,7 @@ def manually_fill():
         try:
             global cursor
             connection = pymysql.connect(
-                host='localhost', user='root', password='', db='manually_fill_attendance')
+                host='localhost', user='root', password='Piyush@123', db='temp')
             cursor = connection.cursor()
         except Exception as e:
             print(e)
@@ -169,7 +169,7 @@ def manually_fill():
             def create_csv():
                 import csv
                 cursor.execute("select * from " + DB_table_name + ";")
-                csv_name = 'Attendance-Management-System/Attendance' + DB_table_name + '.csv'
+                csv_name = 'Attendance_Management_System/Attendance' + DB_table_name + '.csv'
                 with open(csv_name, "w") as csv_file:
                     csv_writer = csv.writer(csv_file)
                     csv_writer.writerow(
@@ -225,7 +225,7 @@ def manually_fill():
             def attf():
                 import subprocess
                 subprocess.Popen(
-                    r'explorer /select,"Attendance-Management-System\Attendance-------Check atttendance-------"')
+                    r'explorer /select,"Attendance_Management_System\Attendance-------Check attendance-------"')
 
             attf = tk.Button(MFW, text="Check Sheets", command=attf, fg="white", bg="black",
                              width=12, height=1, activebackground="white", font=('times', 14, ' bold '))
@@ -492,7 +492,7 @@ def subjectchoose():
                 root = tkinter.Tk()
                 root.title("Attendance of " + Subject)
                 root.configure(background='grey80')
-                cs = 'Attendance-Management-System' + fileName
+                cs = 'Attendance_Management_System' + fileName
                 with open(cs, newline="") as file:
                     reader = csv.reader(file)
                     r = 0
