@@ -169,7 +169,7 @@ def manually_fill():
             def create_csv():
                 import csv
                 cursor.execute("select * from " + DB_table_name + ";")
-                csv_name = 'Attendance-Management-System/Attendance' + DB_table_name + '.csv'
+                csv_name = 'Attendance_Management_System/Attendance' + DB_table_name + '.csv'
                 with open(csv_name, "w") as csv_file:
                     csv_writer = csv.writer(csv_file)
                     csv_writer.writerow(
