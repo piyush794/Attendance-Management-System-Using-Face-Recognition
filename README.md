@@ -89,10 +89,7 @@ Attendance Management System using Face Recognition/
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements or additional features, feel free to fork the repository and submit a pull request.
 
----
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
